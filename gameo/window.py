@@ -1,4 +1,5 @@
 from panda3d.core import loadPrcFile
+
 loadPrcFile("config/conf.prc")
 from direct.showbase.ShowBase import ShowBase
 
@@ -13,8 +14,8 @@ class GameoWindow(ShowBase):
 
         scene.reparentTo(self.render)
         panda = self.loader.loadModel("models/panda")
-        panda.setPos(-2,10,0)
-        panda.setScale(0.2,0.2,0.2)
+        panda.setPos(-2, 10, 0)
+        panda.setScale(0.2, 0.2, 0.2)
         panda.reparentTo(self.render)
 
 
