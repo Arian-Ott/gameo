@@ -1,0 +1,17 @@
+[project]
+name = "gameo"
+version = "0.1.0"
+description = "Gameo game"
+authors = [
+    { name = "Arian Ott", email = "arian.ott@ieee.org" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "panda3d>=1.10.15",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.12.1",
+]
